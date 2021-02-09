@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
 
-class App extends Component {
+class HomeScreen extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -11,10 +11,10 @@ class App extends Component {
   render() {
     return (
       <View>
-        <Text> App </Text>
+        <Text> index </Text>
       </View>
     );
   }
 }
 
-export default App;
+export default HomeScreen;
