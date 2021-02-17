@@ -298,6 +298,8 @@ PODS:
     - React-Core (= 0.63.4)
     - React-cxxreact (= 0.63.4)
     - React-jsi (= 0.63.4)
+  - RNBootSplash (3.1.4):
+    - React-Core
   - RNCMaskedView (0.1.10):
     - React
   - RNGestureHandler (1.10.0):
@@ -305,6 +307,8 @@ PODS:
   - RNReanimated (1.13.2):
     - React-Core
   - RNScreens (2.17.1):
+    - React-Core
+  - RNVectorIcons (8.0.0):
     - React-Core
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
@@ -358,10 +362,12 @@ DEPENDENCIES:
   - React-RCTText (from `../node_modules/react-native/Libraries/Text`)
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - RNBootSplash (from `../node_modules/react-native-bootsplash`)
   - "RNCMaskedView (from `../node_modules/@react-native-community/masked-view`)"
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNReanimated (from `../node_modules/react-native-reanimated`)
   - RNScreens (from `../node_modules/react-native-screens`)
+  - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -432,6 +438,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/Libraries/Vibration"
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
+  RNBootSplash:
+    :path: "../node_modules/react-native-bootsplash"
   RNCMaskedView:
     :path: "../node_modules/@react-native-community/masked-view"
   RNGestureHandler:
@@ -440,6 +448,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-reanimated"
   RNScreens:
     :path: "../node_modules/react-native-screens"
+  RNVectorIcons:
+    :path: "../node_modules/react-native-vector-icons"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -481,13 +491,15 @@ SPEC CHECKSUMS:
   React-RCTText: 5c51df3f08cb9dedc6e790161195d12bac06101c
   React-RCTVibration: ae4f914cfe8de7d4de95ae1ea6cc8f6315d73d9d
   ReactCommon: 73d79c7039f473b76db6ff7c6b159c478acbbb3b
+  RNBootSplash: 774bfb6219ceaf22f3f87f691ddc51e0746d6ff2
   RNCMaskedView: 5a8ec07677aa885546a0d98da336457e2bea557f
   RNGestureHandler: 03f587ba19a7e2d9fe48fb9aa6e33ace5fd07dd5
   RNReanimated: e03f7425cb7a38dcf1b644d680d1bfc91c3337ad
   RNScreens: b6c9607e6fe47c1b6e2f1910d2acd46dd7ecea3a
+  RNVectorIcons: f67a1abce2ec73e62fe4606e8110e95a832bc859
   Yoga: 4bd86afe9883422a7c4028c00e34790f560923d6
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
 PODFILE CHECKSUM: 7b4db1141e4ebd7419c32fe3836f90ca02c16808
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.1

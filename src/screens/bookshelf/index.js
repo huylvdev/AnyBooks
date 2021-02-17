@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
-import IconT from 'react-native-vector-icons/AntDesign';
-class HomeScreen extends Component {
+
+class Bookshelf extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -11,10 +11,10 @@ class HomeScreen extends Component {
   render() {
     return (
       <View>
-        <IconT name='downcircleo'> </IconT>
+        <Text> index </Text>
       </View>
     );
   }
 }
 
-export default HomeScreen;
+export default Bookshelf;
