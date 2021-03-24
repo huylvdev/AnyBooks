@@ -33,9 +33,7 @@ const Icon = (props) => {
         ...attributes
     } = props;
 
-    const IconComponent = getIconType(type);
-
-    console.log('IconComponent111', IconComponent)
+    const IconComponent = getIconType(type); 
     const getBackgroundColor = () => {
         if (reverse) {
             return color;
